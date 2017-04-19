@@ -1,5 +1,5 @@
 package kuyruk;
-//Kuyruk için fonksiyonlarýn bulunduðu sýnýf.
+//Kuyruk icin fonksiyonlarin bulundugu sýnýf.
 public class kuyruk {
 	
 	kuyrukNode bas,son;
@@ -8,7 +8,7 @@ public class kuyruk {
 		bas=null;
 		boyut=0;
 	}
-	//Kuyruða eleman ekleyen fonksiyon.
+	//Kuyruga eleman ekleyen fonksiyon.
 	public void ekle (String ad){
 		kuyrukNode yeni = new kuyrukNode(ad);
 		
@@ -29,7 +29,7 @@ public class kuyruk {
 		bas=bas.sonraki;
 		return b;
 	}
-	//Kuyruðu listeleyen fonksiyon.
+	//Kuyrugu listeleyen fonksiyon.
 	public void listele(){
 		kuyrukNode temp;
 		temp=bas;

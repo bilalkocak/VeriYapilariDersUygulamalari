@@ -1,13 +1,12 @@
 package bagli1;
-//Baðlý listenin fonksiyonlarýnýn bulunduðu sýnýf.
+//Bagli listenin fonksiyonlarinin bulundugu sinif.
 public class LinkedList {
-	//ListNode türünde baþ ve kuyruk tanýmlandý.
 	ListNode head,tail;
 	
 	//Listeye eleman ekleyen fonksiyon.
 	public void ekle(String ad){
 		ListNode yeniNode= new ListNode(ad);
-		//Ýlk eleman kontrolü.
+		//Ilk eleman kontrolu.
 		if(head==null){
 			head=yeniNode;
 			tail=yeniNode;

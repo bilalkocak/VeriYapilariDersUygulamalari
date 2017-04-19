@@ -1,5 +1,5 @@
 package ciftyonlu;
-//Çift yönlü baðlý liste fonkisyonlarýnýn bulunduðu sýnýf.
+//Cift yonlu bagli liste fonksiyonlarinin bulundugu sinif.
 public class DLinkedList {
 	public DListNode head,tail;
 	//Eleman ekleme fonksiyonu.

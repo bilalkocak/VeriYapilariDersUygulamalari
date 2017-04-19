@@ -1,5 +1,5 @@
 package ciftyonlu;
-//Çift yönlü baðlý liste main sýnýfý.
+//Cift yonlu baglý liste main sinifi.
 public class DMain {
 
 	public static void main(String[] args) {

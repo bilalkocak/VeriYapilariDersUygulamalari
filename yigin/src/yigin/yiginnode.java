@@ -1,5 +1,5 @@
 package yigin;
-//Yýðýnýn tanýmlandýðý sýnýf.
+//Yiginin tanimlandigi sinif.
 public class yiginnode {
 	
 	int eleman;
@@ -8,6 +8,5 @@ public class yiginnode {
 	public yiginnode(int e) {
 		eleman = e;
 		sonraki=null;
-		// TODO Auto-generated constructor stub
 	}
 }

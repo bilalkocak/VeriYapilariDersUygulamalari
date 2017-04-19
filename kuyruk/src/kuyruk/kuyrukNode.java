@@ -1,5 +1,5 @@
 package kuyruk;
-//Kuyruk düðümünün tanýmlandýðý sýnýf.
+//Kuyruk dugumunun tanimlandigi sinif.
 public class kuyrukNode {
 	
 	String ad;

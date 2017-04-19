@@ -1,6 +1,6 @@
 package ciftyonlu;
 
-//Çift yönlü baðlý listenin tanýmlandýðý sýnýf.
+//Cift yonlu bagli listenin tanimlandigi sinif.
 public class DListNode {
 	public String isim;
 	public DListNode sonraki;
