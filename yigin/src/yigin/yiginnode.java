@@ -1,5 +1,5 @@
 package yigin;
-
+//Yýðýnýn tanýmlandýðý sýnýf.
 public class yiginnode {
 	
 	int eleman;

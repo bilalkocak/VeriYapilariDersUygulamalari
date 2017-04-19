@@ -1,5 +1,5 @@
 package ikiliAramaAgaci;
-
+//Ýkili arama aðacýnýn tanýmlandýðý sýnýf.
 public class BSTNode {
 	int icerik;
 	

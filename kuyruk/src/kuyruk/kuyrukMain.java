@@ -1,5 +1,5 @@
 package kuyruk;
-
+//Kuyruk main sýnýfý.
 public class kuyrukMain {
 
 	public static void main(String[] args) {

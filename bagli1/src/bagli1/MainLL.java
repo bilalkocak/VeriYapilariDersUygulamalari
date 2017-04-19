@@ -1,5 +1,5 @@
 package bagli1;
-
+//Main sýnýfý.
 public class MainLL {
 
 	public static void main(String[] args) {

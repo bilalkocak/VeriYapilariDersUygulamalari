@@ -1,5 +1,5 @@
 package ikiliAramaAgaci;
-
+//Ýkili arama aðacý main sýnýfý.
 public class agacMain {
 
 	public static void main(String[] args) {

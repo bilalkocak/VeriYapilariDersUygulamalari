@@ -1,13 +1,13 @@
 package ikiliAramaAgaci;
 
-
+//Ýkili arama aðacýnýn fonksiyonlarýnýn bulunduðu sýnýf.
 public class BST {
 	
 	BSTNode kok;
 	public BST(){
 		kok=null;
 	}
-	
+	//Aðaca elaman ekleyen fonksiyon.
 	public void ekleme(int sayi){
 		BSTNode newBSTNode=new BSTNode(sayi);
 		if(kok==null){
@@ -33,14 +33,14 @@ public class BST {
 			}
 		}
 	}
-		
-		public void listele(BSTNode kok){
+	//Aðacý küçükten büyüðe listeleyen fonksiyon.
+	public void listele(BSTNode kok){
 			
-			if(kok!=null){
-				listele(kok.sol);
-				System.out.println(" "+kok.icerik);
-				listele(kok.sag);
-			}
-		}	
-	}
+		if(kok!=null){
+			listele(kok.sol);
+			System.out.println(" "+kok.icerik);
+			listele(kok.sag);
+		}
+	}	
+}
 

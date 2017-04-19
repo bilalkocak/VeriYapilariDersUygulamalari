@@ -1,5 +1,5 @@
 package yigin;
-
+//Yýðýn main sýnýfý
 public class Mainyigin {
 
 	public static void main(String[] args) {
