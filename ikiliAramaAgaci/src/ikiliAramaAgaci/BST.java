@@ -1,13 +1,13 @@
 package ikiliAramaAgaci;
 
-
+//Ikili arama agacinin fonksiyonlarinin bulundugu sinif.
 public class BST {
 	
 	BSTNode kok;
 	public BST(){
 		kok=null;
 	}
-	
+	//Agaca elaman ekleyen fonksiyon.
 	public void ekleme(int sayi){
 		BSTNode newBSTNode=new BSTNode(sayi);
 		if(kok==null){
@@ -33,14 +33,14 @@ public class BST {
 			}
 		}
 	}
-		
-		public void listele(BSTNode kok){
+	//Agaci kucukten buyuge listeleyen fonksiyon.
+	public void listele(BSTNode kok){
 			
-			if(kok!=null){
-				listele(kok.sol);
-				System.out.println(" "+kok.icerik);
-				listele(kok.sag);
-			}
-		}	
-	}
+		if(kok!=null){
+			listele(kok.sol);
+			System.out.println(" "+kok.icerik);
+			listele(kok.sag);
+		}
+	}	
+}
 

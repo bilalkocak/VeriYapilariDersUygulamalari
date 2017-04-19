@@ -1,5 +1,5 @@
 package ciftyonlu;
-
+//Cift yonlu baglý liste main sinifi.
 public class DMain {
 
 	public static void main(String[] args) {

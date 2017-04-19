@@ -1,8 +1,8 @@
 package ciftyonlu;
-
+//Cift yonlu bagli liste fonksiyonlarinin bulundugu sinif.
 public class DLinkedList {
 	public DListNode head,tail;
-	
+	//Eleman ekleme fonksiyonu.
 	public void ekle(String ad){
 		DListNode yeniNode=new DListNode(ad);
 		if(head==null){
@@ -21,6 +21,7 @@ public class DLinkedList {
 			tail.sonraki=null;
 		}
 	}
+	//Listeyi listeleyen fonksiyon
 	public void listele(){
 		if(head==null){
 			System.out.println("liste boþ");
@@ -36,7 +37,7 @@ public class DLinkedList {
 			
 		}
 	}
-	
+	//Listeden eleman silen fonksiyon
 	public void sil(String ad){
 		
 		if(head==null){

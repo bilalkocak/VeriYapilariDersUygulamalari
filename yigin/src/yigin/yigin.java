@@ -1,5 +1,5 @@
 package yigin;
-
+//Yigini fonksiyonlarinin bulundugu sinif.
 public class yigin {
 	
 	private yiginnode ust,temp;
@@ -7,13 +7,13 @@ public class yigin {
 	public  yigin(){
 		ust=null;
 	}
-	
+	//Yigina eleman ekleyen fonksiyon.
 	public void koy(int eleman){
 		yiginnode x =new yiginnode(eleman);
 		x.sonraki=ust;
 		ust=x;
 	}
-	
+	//Yiginin boslugunu kontrol eden fonksiyon.
 	public boolean bosMu(){
 		if(ust==null){
 			return true;
@@ -23,7 +23,7 @@ public class yigin {
 			return false;
 		}
 	}
-	
+	//Yigindan eleman alan fonksiyon.
 	public int al(){
 		if(bosMu()){
 			System.out.println("liste boþþþ");
@@ -33,7 +33,7 @@ public class yigin {
 		ust=ust.sonraki;
 		return temp.eleman;
 	}
-	
+	//Yigini listeleyen fonksiyon.
 	public void listele(){
 		if(bosMu()){
 			System.out.println("liste boooþ");

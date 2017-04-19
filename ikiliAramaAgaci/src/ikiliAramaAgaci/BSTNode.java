@@ -1,5 +1,5 @@
 package ikiliAramaAgaci;
-
+//Ikili arama agacinin tanimlandigi sinif.
 public class BSTNode {
 	int icerik;
 	
