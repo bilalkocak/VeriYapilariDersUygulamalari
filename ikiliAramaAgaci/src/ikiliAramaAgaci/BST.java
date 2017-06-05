@@ -38,7 +38,7 @@ public class BST {
 			
 		if(kok!=null){
 			listele(kok.sol);
-			System.out.println(" "+kok.icerik);
+			System.out.println(kok.icerik);
 			listele(kok.sag);
 		}
 	}	
